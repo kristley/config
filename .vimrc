@@ -19,7 +19,7 @@ noremap <leader>tc :tabclose<cr>
 noremap <S-h> <S-i>
 noremap <leader><cr> i<Enter><Esc>
 
-inoremap jk <Esc>
+" inoremap jk <Esc>
 
 vnoremap > >gv
 vnoremap < <gv
