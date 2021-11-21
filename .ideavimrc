@@ -24,6 +24,10 @@ map \r <Action>(ReformatCode)
 map <leader>rr <Action>(RenameElement)
 map <leader>rm <Action>(ExtractMethod)
 map <leader>n <Action>(GotoNextError)
+map <leader>cs <Action>(CollapseSelection)
+map <leader>cr <Action>(CollapseRegion)
+map <leader>er <Action>(ExpandRegion)
+map <leader>ea <Action>(ExpandAll)
 
 "" Map <leader>d to start debug
 "map <leader>d <Action>(Debug)
