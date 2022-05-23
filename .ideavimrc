@@ -1,4 +1,4 @@
-"" Source your .vimrc
+g" Source your .vimrc
 source ~/config/.vimrc
 
 "" -- Suggested options --
@@ -22,12 +22,15 @@ map <leader>b <Action>(Back)
 map <leader><S-b> <Action>(Forward)
 map \r <Action>(ReformatCode)
 map <leader>rr <Action>(RenameElement)
+map <leader>rf <Action>(Refactor)
 map <leader>rm <Action>(ExtractMethod)
+map <leader>rs <Action>(ChangeSignature)
 map <leader>n <Action>(GotoNextError)
 map <leader>cs <Action>(CollapseSelection)
 map <leader>cr <Action>(CollapseRegion)
 map <leader>er <Action>(ExpandRegion)
 map <leader>ea <Action>(ExpandAll)
+map <leader>; <Action>(AceJump)
 
 "" Map <leader>d to start debug
 "map <leader>d <Action>(Debug)

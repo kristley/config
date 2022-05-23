@@ -18,6 +18,7 @@ noremap <leader>to :tabonly<cr>
 noremap <leader>tc :tabclose<cr>
 noremap <S-h> <S-i>
 noremap <leader><cr> i<Enter><Esc>
+noremap <S-u> <S-h>
 
 " inoremap jk <Esc>
 
